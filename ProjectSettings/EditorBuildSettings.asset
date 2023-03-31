@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Onitama/Scenes/GameScene/Scenes/GameScene.unity
+    guid: 8bfa6e620478a1843ae6eb397d965d43
   m_configObjects: {}

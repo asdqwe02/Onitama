@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e40222f4c5e4b899e3a0dfdb2a46015, type: 3}
   m_Name: SceneConfig
   m_EditorClassIdentifier: 
-  Scenes: []
-  StartingScene:
+  _scenes:
+  - SceneName: GameScene
+    ScenePath: Assets/Onitama/Scenes/GameScene/Scenes/GameScene.unity
+    LoadPath: Onitama/Scenes/GameScene/Scenes/GameScene
+    DeletePath: Assets\Onitama/Scenes\GameScene
+  _startingScene:
     SceneName: 
     ScenePath: 
     LoadPath: 
     DeletePath: 
-  SceneRootPath: PKFramework/Examples/SceneExample
-  SceneDefineFileSavePath: PKFramework/Examples/SceneExample
-  SceneDefineFileName: SceneDefine
+  _sceneRootPath: Onitama/Scenes
+  _sceneDefineFileSavePath: Onitama/Scenes
+  _sceneDefineFileName: SceneDefine
   SceneWaitingForComponents: 
