@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b816b2ef598547b4b77d504f759a42b8, type: 3}
-  m_Name: GameSceneConfigInstaller
+  m_Script: {fileID: 11500000, guid: 6c62948af4474777be8bca02a7199397, type: 3}
+  m_Name: BoardGridConfig
   m_EditorClassIdentifier: 
-  _boardGridConfig: {fileID: 11400000, guid: 8ffd64d60599463418e8953da79da28a, type: 2}
+  Spacing: 1.15
+  Size: {x: 3, y: 3}
+  BoardGridCellPrefab: {fileID: 8191300668683418568, guid: d3c342e0ceeb13444bec67ec16ddf7a4, type: 3}
